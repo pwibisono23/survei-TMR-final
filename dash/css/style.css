@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #89C993;
+}
+
+.header{
+    background-color: #3E9E53;
+}
+
+img{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
+
+.dki-logo img{
+    position: absolute;
+    top: 0.5%;
+    left: 95%;
+}
+
+.sub-header{
+    background-color: #66C875;
+}
+
+.question{
+    display: flex;
+    margin-top: 3%;
+    left: 44%;
+    font-size: 30px;
+    justify-content: center;
+}
+
+
+.icons #spic,
+.icons #pic,
+.icons #cpic,
+.icons #tpic{
+    position: absolute;
+    font-size: 150px;
+    top: 37%;
+    width: 169px;
+    height: 169px;
+}
+
+
+.icons #spic{
+    left: 26%;
+}
+
+.icons #pic{
+    left: 40%;
+}
+
+.icons #cpic{
+    left: 54%;
+}
+
+.icons #tpic{
+    left: 68%;
+}
+
+.icons #end{
+    position: absolute;
+    font-size: 150px;
+    top: 30%;
+    left: 42%;
+    width: 310px;
+    height: 310px;
+}
+
+.icons .sp,
+.icons .ps,
+.icons .cp,
+.icons .tp{
+    position: absolute;
+    top: 58%;
+}
+
+.icons .sp{
+    left: 26.4%;
+}
+
+.icons .ps{
+    left: 42.5%;
+}
+
+.icons .cp{
+    left: 54.5%;
+}
+
+.icons .tp{
+    left: 68.9%;
+}
+
+.icons .tq{
+    position: absolute;
+    top: 70%;
+    left: 31.5%;
+    font-size: 45px;
+}
+
+.time .date{
+    position: absolute;
+    left: 43%;
+    top: 78%;
+    font-size: 30px;
+}
+
+.time .clock{
+    position: absolute;
+    top: 94%;
+    left: 93%;
+    font-size: 30px;
+}
+
+.footer .run-text{
+    position: fixed;
+    top: 93%;
+    padding: 0.8%;
+    font-size: 20px;
+    width: 90%;
+    background-color: #66C875;
+    color: black;
+    
+}
+
+@media screen and (max-width: 1024px){
+    .icons #spic,
+    .icons #pic,
+    .icons #cpic,
+    .icons #tpic{
+        top: 35%;
+    }
+
+    .icons #spic{
+        left: 5%;
+    }
+    
+    .icons #pic{
+        left: 28%;
+    }
+    
+    .icons #cpic{
+        left: 52%;
+    }
+    
+    .icons #tpic{
+        left: 75%;
+    }
+
+    .icons #end{
+        top: 30%;
+        left: 40%;
+        width: 220px;
+        height: 220px;
+    }
+
+    .icons .sp,
+    .icons .ps,
+    .icons .cp,
+    .icons .tp{
+        top: 60%;
+    }
+
+    .icons .sp{
+        left: 6%;
+    }
+    
+    .icons .ps{
+        left: 33%;
+    }
+    
+    .icons .cp{
+        left: 53.5%;
+    }
+    
+    .icons .tp{
+        left: 77%;
+    }
+
+    .icons .tq{
+        top: 70%;
+        left: 26%;
+        font-size: 30px;
+    }
+
+    .time .date{
+        left: 36%;
+        top: 78%;
+    }
+
+    .time .clock{
+        top: 93%;
+        left: 90%;
+    }
+
+    .footer .run-text{
+        top: 93%;
+        width: 88%;
+    }
+
+    .dki-logo img{
+        position: absolute;
+        top: 0.5%;
+        left: 93%;
+    }
+
+
+}
